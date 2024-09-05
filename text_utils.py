@@ -17,7 +17,7 @@ def count_sentences(text):
     num_sentence = 0 #starts a count
 
     for char in text: #check the characters in the input text
-        if char in ".?!": #if a charcter is equal to . or ? or ! 
+        if char in ".?!": #if a charcter is equal to . or ? or ! (aka the end of a sentence)
             num_sentence += 1 #add one to the count
 
     return(num_sentence) #returns the number of sentences from above
