@@ -5,8 +5,10 @@ this is the text file called "sample.txt" (located in the same directory as
 this exercise). The average number of words per line should be rounded down to
 the nearest integer.
 
-Print the average number of words per line in the text file in the following
+Print the average number (FLOORED) of words per line in the text file in the following
 format:
 
 "Average words per line: [average]"
 """
+
+    #return (f"Average words per line: {average}")
