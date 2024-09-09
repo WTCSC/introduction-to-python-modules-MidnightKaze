@@ -16,14 +16,13 @@ text = open('sample.txt', 'r') #opens the file in read mode
 
 total = 0
 
-lines = text.readlines()
+lines = text.readlines() #generates a list of the lines in the file
 
 #num_lines = len(text.readlines()) #uses the length of the list generate to get the number of lines
 
 for line in lines:
+    total += text_utils.count_words(line) #uses the count_words function and then adds that to the total
 
-    total += text_utils.count_words(line)
-
-average = int(total / len(lines))
+average = int(total / len(lines)) #the interger (floor) of the average
 
 print (f"Average words per line: {average}")
