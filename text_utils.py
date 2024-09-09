@@ -1,3 +1,5 @@
+#this all passed the test btw
+
 def count_chars(text):
     
     return (len(text)) #returns the length of the string as the total number of characters
